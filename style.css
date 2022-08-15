@@ -1,0 +1,80 @@
+/*Columnas*/
+.contenido{
+    display: grid;
+}
+/*Fondo */
+body{
+    background-image: url(img/registro.png);
+}
+/*Titulo*/
+#title-register{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 10vh;
+}
+/*Diseño formulario*/
+.form-name{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+#fname{
+    padding: 0.40em 0.8em;
+    border-radius: 0.3rem;
+    border: 2px solid yellow;
+    text-align: center;
+    box-shadow: 0 2px 3px rgba(0 0 0/ 0.15);
+    width: 30%;
+    background-color: yellow;
+    font-family: ""; 
+    font-weight: 300; 
+}
+
+.form-pass{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+#pwd{
+    padding: 0.40em 0.8em;
+    border-radius: 0.3rem;
+    border: 2px solid yellow;
+    text-align: center;
+    box-shadow: 0 2px 3px rgba(0 0 0/ 0.15);
+    width: 30%;
+    background-color: yellow;
+    font-family: ""; 
+    font-weight: 300; 
+}
+.form-btn-register{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 15vh;   
+}
+
+#txt-guardar{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 10vh;
+}
+.form-btn-enter{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 15vh;
+}
+#txt-enter{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+
